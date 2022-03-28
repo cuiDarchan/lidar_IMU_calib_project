@@ -1,0 +1,9 @@
+
+<launch>
+  
+  <node name="align_to_map_node" pkg="lidar_imu_calib_based_on_map" type="align_to_map_node" output="screen" cwd="node">
+  </node>
+
+  <node pkg="rviz" name="rviz" type="rviz"  args="-d $(find lidar_imu_calib_based_on_map)/config/rviz_cfg/align_to_map.rviz"/>
+
+</launch>

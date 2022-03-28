@@ -1,0 +1,18 @@
+## Align to map config
+map_topic: none
+
+map_path: /catkin_ws/src/lidar_IMU_calib_based_on_map/data/map/map.pcd
+
+map_trans: [682984.036069, 3119221.153495, 12.697782]
+
+adjust_lidar_topic: /livox_lidar_front/PointCloud2
+bag_path: /catkin_ws/src/lidar_IMU_calib_based_on_map/data/data_example.bag
+extrinsic_path: /catkin_ws/src/lidar_IMU_calib_based_on_map/config/extrinsics/lidar_extrinsics.yaml
+
+frame_count: 3
+is_point_filter: 0
+ndt_params:
+  transformation_epsilon: 0.02
+  step_size: 0.1
+  resolution: 1.0
+  max_iterations: 35

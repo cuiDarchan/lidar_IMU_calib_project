@@ -27,8 +27,8 @@ rosbag play src/lidar_IMU_calib_based_on_map/data/data_example.bag -l
 ```
 
 ### 2.5 显示结果
-如doc下的图片，可视化为标定匹配结果，右侧命令行显示最终的标定外参。
-![Image](https://github.com/shen/SwiftNotes/blob/master/image/1.png)
+如images下的图片，可视化为标定匹配结果，右侧命令行显示最终的标定外参。
+![Image](https://github.com/cuiDarchan/lidar_IMU_calib_project/blob/main/images/result.png)  
 
 ## 3.基本原理
 1）预制一块点云地图，将车辆静止放入场景中，获取位置与姿态，将点云地图转化为IMU坐标系下。  
